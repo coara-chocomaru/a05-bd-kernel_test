@@ -56,7 +56,7 @@ jobs:
 
     - name: Set up clang
       run: |
-        cd /__w/a05bd-kernel/a05bd-kernel
+        cd /__w/a05-bd-kernel_test/a05-bd-kernel_test
         mkdir -p toolchain/clang/clang-4691093
         curl -L https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/android-9.0.0_r6/clang-4691093.tar.gz | tar xz -C toolchain/clang/clang-4691093
         mkdir -p toolchain/aarch64-linux-android-4.9/
