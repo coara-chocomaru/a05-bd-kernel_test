@@ -3,10 +3,10 @@ name: Build Kernel
 on:
   push:
     branches:
-      - main
+      - twrp
   pull_request:
     branches:
-      - main
+      - twrp
 
 jobs:
   build:
